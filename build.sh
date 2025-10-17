@@ -7,7 +7,7 @@ set -e
 
 IMAGE_NAME="bookstore"
 TAG=${1:-latest}
-REGISTRY=${2:-"00776600"}  # Twój Docker Hub login
+REGISTRY=${2:-"{YOUR_DOCKER_HUB_USERNAME_HERE}"}  # Provide your Docker Hub username
 
 echo "Building multi-architecture Docker image: ${IMAGE_NAME}:${TAG}"
 
