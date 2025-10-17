@@ -1,0 +1,6 @@
+ID,title,author,genre,price,currency_code,stock,description,publisher,publishedAt,isbn,createdAt,createdBy,modifiedAt,modifiedBy
+1,Harry Potter and the Philosopher's Stone,J.K. Rowling,Fantasy,29.99,EUR,50,The first book in the Harry Potter series,Bloomsbury,1997-06-26,9780747532699,2024-01-01T00:00:00Z,admin,2024-01-01T00:00:00Z,admin
+2,A Game of Thrones,George R.R. Martin,Fantasy,35.50,EUR,25,The first book in A Song of Ice and Fire series,Bantam Spectra,1996-08-01,9780553103540,2024-01-01T00:00:00Z,admin,2024-01-01T00:00:00Z,admin
+3,The Last Wish,Andrzej Sapkowski,Fantasy,28.00,EUR,30,First book in The Witcher series,superNOWA,1993-01-01,9788375780642,2024-01-01T00:00:00Z,admin,2024-01-01T00:00:00Z,admin
+4,Murder on the Orient Express,Agatha Christie,Mystery,22.99,EUR,40,Classic detective novel featuring Hercule Poirot,Collins Crime Club,1934-01-01,9780007119318,2024-01-01T00:00:00Z,admin,2024-01-01T00:00:00Z,admin
+5,Harry Potter and the Chamber of Secrets,J.K. Rowling,Fantasy,31.99,EUR,45,Second book in the Harry Potter series,Bloomsbury,1998-07-02,9780747538493,2024-01-01T00:00:00Z,admin,2024-01-01T00:00:00Z,admin

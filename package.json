@@ -1,0 +1,54 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "dependencies": {
+    "@cap-js/hana": "^2",
+    "@cap-js/sqlite": "^2",
+    "@cap-js/postgres": "^2",
+    "@sap/cds": "^9",
+    "express": "^4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "cds-serve",
+    "build": "cds build",
+    "deploy": "cds deploy"
+  },
+  "private": true,
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "postgres",
+        "credentials": {
+          "host": "localhost",
+          "port": 5432,
+          "database": "capdb",
+          "user": "capuser",
+          "password": "",
+          "ssl": false
+        },
+        "pool": {
+          "acquireTimeoutMillis": 60000,
+          "createTimeoutMillis": 60000,
+          "destroyTimeoutMillis": 5000,
+          "idleTimeoutMillis": 60000,
+          "reapIntervalMillis": 10000,
+          "createRetryIntervalMillis": 2000,
+          "max": 1,
+          "min": 0
+        },
+        "query_timeout": 60000
+      },
+      "auth": {
+        "kind": "mocked"
+      }
+    },
+    "migrations": {
+      "deploy": {
+        "tmpFile": false,
+        "undeployFile": "./db/undeploy.json"
+      }
+    }
+  }
+}

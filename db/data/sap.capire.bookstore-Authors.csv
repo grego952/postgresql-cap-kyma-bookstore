@@ -1,0 +1,5 @@
+ID,name,birthDate,nationality,biography,createdAt,createdBy,modifiedAt,modifiedBy
+1,J.K. Rowling,1965-07-31,British,British author best known for the Harry Potter series,2024-01-01T00:00:00Z,admin,2024-01-01T00:00:00Z,admin
+2,George R.R. Martin,1948-09-20,American,American novelist and short story writer known for A Song of Ice and Fire,2024-01-01T00:00:00Z,admin,2024-01-01T00:00:00Z,admin
+3,Andrzej Sapkowski,1948-06-21,Polish,Polish fantasy writer known for The Witcher series,2024-01-01T00:00:00Z,admin,2024-01-01T00:00:00Z,admin
+4,Agatha Christie,1890-09-15,British,British detective novelist known for Hercule Poirot and Miss Marple,2024-01-01T00:00:00Z,admin,2024-01-01T00:00:00Z,admin

@@ -1,0 +1,14 @@
+apiVersion: security.istio.io/v1
+kind: AuthorizationPolicy
+metadata:
+  name: bookstore-allow-internal
+  namespace: cap-bookstore
+spec:
+  selector:
+    matchLabels:
+      app: bookstore
+  action: ALLOW
+  rules:
+  - from:
+    - source:
+        notPrincipals: ["cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account"]

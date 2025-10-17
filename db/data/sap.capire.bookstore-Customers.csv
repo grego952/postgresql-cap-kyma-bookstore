@@ -1,0 +1,4 @@
+ID,firstName,lastName,email,phone,address,createdAt,createdBy,modifiedAt,modifiedBy
+1,Jan,Kowalski,jan.kowalski@example.com,+48123456789,ul. Kwiatowa 15 Warszawa,2024-01-01T00:00:00Z,admin,2024-01-01T00:00:00Z,admin
+2,Anna,Nowak,anna.nowak@example.com,+48987654321,ul. Słoneczna 8 Kraków,2024-01-01T00:00:00Z,admin,2024-01-01T00:00:00Z,admin
+3,Piotr,Wiśniewski,piotr.wisniewski@example.com,+48555123456,al. Niepodległości 22 Gdańsk,2024-01-01T00:00:00Z,admin,2024-01-01T00:00:00Z,admin
