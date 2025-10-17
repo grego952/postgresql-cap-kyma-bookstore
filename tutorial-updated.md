@@ -1,16 +1,3 @@
----
-title: Set Up PostgreSQL Service and Development Environment for CAP Bookstore Application
-description: Learn how to set up PostgreSQL BTP service, configure Kyma environment, and prepare for CAP application development and deployment.
-keywords: cap, postgresql, kyma, sap-btp
-parser: v2
-auto_validation: true
-time: 30
-tags: [ tutorial>beginner, software-product>sap-business-technology-platform, software-product>sap-btp--kyma-runtime, tutorial>sap-cap, topic>cloud]
-primary_tag: software-product>sap-btp--kyma-runtime
-author_name: Grzegorz Karaluch
-author_profile: https://github.com/grego952
----
-
 # Set Up PostgreSQL Service and Development Environment for CAP Bookstore Application
 
 ## Introduction
